@@ -1,0 +1,18 @@
+==============================================================================================
+									LOG FILE PARSING
+==============================================================================================
+
+Problem Statement: Java Coding Assignment
+
+Given a log file, write a Program to parse this file based on types of logs to be displayed. Possible log types are error,warning,info,debug. The output should contain most recent(based on line numbers) filetred logs.
+Input Parameters will be as below: 
+    1.File path
+    2.Number of lines to be displayed. This should be optional parameter, by default the value will be 10.
+    3.Types of log messages to be displayed (comma separated). Type can be one or many of [error,warning,info,debug]. This will be optional parameter, by default value will be "error". 
+
+Notes-
+1. If file path is invalid the program should raise an Exception.
+2. If log message type is invalid the program should raise Exception.
+3. Each log entry in the file will start with either of the keywords error, warning, info or debug.
+4. The program should display the most recently added logs. For example if I provide number of lines to be displayed as 100, the program should start parsing file from end and parse till 10 lines of logs matches the 'type of log messages' specified value.
+5. Attached is a sample log file which can be used as input for this program.

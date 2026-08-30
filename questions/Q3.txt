@@ -1,0 +1,17 @@
+==============================================================================================
+									GET HARDWARE INFO
+==============================================================================================
+
+Problem Statement: Python Coding Assignment
+
+Write a program to display real time hardwre info of the system. Use object oriented programming approach and python pacakge/module concept.
+
+Notes:
+1. Create a parent class HostInfo which will be inherited by child class LinuxHost and WindowsHost.
+2. Classes should have hostname, memory, cpu, ip, disk_size as attributes.
+3. Create a abstract method get_hardware_info() inside HostInfo, it's subclasses should implement this method. This method will query the hardware info using OS level commands and update above attributes.
+4. Create a method display_hardware_info which displays the information fetched in json format.
+5. Create a python file which instantiates the LinuxHost/WindowsHost class based on OS type where this script is running.
+6. Try to make use of HostInfo class for common attributes and methods.
+
+Hint -  You can use systeminfo for windows and lshw comand to get the info.Feel free to use any other commands if you know.

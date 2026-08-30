@@ -1,0 +1,21 @@
+==============================================================================================
+									FILTER INVENTORY DATA
+==============================================================================================
+
+Problem Statement: C++ Coding Assignment
+
+Given a json file containing inventory information, filter this json based on max Memory/CPU or OS types.
+
+Input parameters:
+	1. Filter criteria: Can be any one of Memory/CPU/Linux/windows. 
+
+If filter criteria is Memory/CPU then display the element with max Memory/CPU.
+If filter criteria is OS type (Linux/windows) then display elements matching the given OS type.
+
+
+Notes-
+1. Raise exception if filter criteria param is missing
+2. Raise exception if input filter criteria does not match any of the above criterias.
+3. Attached is a sample json file which can be used as input for this program.
+4. Use object-oriented design using C++
+5. Optimize your code for large files
